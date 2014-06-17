@@ -1,36 +1,40 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
-	"file_exclude_patterns":
+	"auto_indent": true,
+	"bold_folder_labels": true,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": true,
+	"fold_buttons": true,
+	"font_face": "Soruce Sans Pro",
+	"font_options":
 	[
-		".DS_Store",
-		"Desktop.ini",
-		"*.pyc",
-		"._*",
-		"Thumbs.db",
-		".Spotlight-V100",
-		".Trashes"
+		"subpixel_antialias"
 	],
-	"folder_exclude_patterns":
+	"font_size": 13,
+	"gutter": true,
+	"highlight_line": true,
+	"ignored_packages":
 	[
-		".git",
-		"node_modules"
+		"Vintage"
 	],
-	"font_size": 15.0,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
-	"line_padding_bottom": 6,
-	"matchBracketsAngle": true,
-	"remember_open_files": false,
-	"rulers":
+	"indent_guide_options":
 	[
-		80
+		"draw_active"
 	],
-	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"line_numbers": true,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"margin": 4,
+	"smart_indent": true,
+	"soda_folder_icons": true,
+	"tab_size": 4,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": true
+	"use_tab_stops": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 }
