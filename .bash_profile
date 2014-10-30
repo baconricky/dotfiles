@@ -1,23 +1,13 @@
-<<<<<<< HEAD
-=======
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:$PATH";
 
->>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 # Load the shell dotfiles, and then some:
 # * ~/.paths can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-<<<<<<< HEAD
-for file in ~/.{paths,profile,bash_prompt,exports,aliases,functions,extra}; do
+for file in ~/.{paths,profile,bash_prompt,exports,aliases,functions,extras}; do
 	[ -r "$file" ] && [ -f "$file" ] && source "$file"
 done
-unset file
-=======
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
-	[ -r "$file" ] && [ -f "$file" ] && source "$file";
-done;
 unset file;
->>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob;
@@ -55,8 +45,7 @@ fi;
 complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
-<<<<<<< HEAD
-complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall
+complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
 # If possible, add tab completion for many more commands
 [ -f /etc/bash_completion ] && source /etc/bash_completion
@@ -68,6 +57,4 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
 fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # This loads RVM into a shell session
-=======
-complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
->>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
+

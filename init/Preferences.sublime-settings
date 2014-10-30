@@ -1,69 +1,69 @@
 {
-<<<<<<< HEAD
 	"auto_indent": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"detect_indentation": true,
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": true,
-	"fold_buttons": true,
-	"font_face": "Soruce Sans Pro",
-	"font_options":
-=======
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night-Bright.tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
-	"detect_indentation": false,
-	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
+	"detect_indentation": true,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": true,
 	"file_exclude_patterns":
->>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
+	[
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes"
+	],
+	"fold_buttons": true,
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_face": "Monaco",
+	"font_options":
 	[
 		"subpixel_antialias"
 	],
 	"font_size": 13,
 	"gutter": true,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-<<<<<<< HEAD
 	"indent_guide_options":
-=======
-	"font_face": "Monaco",
-	"font_size": 13,
-	"highlight_modified_tabs": true,
-	"hot_exit": false,
+	[
+		"draw_active"
+	],
+	"line_numbers": true,
 	"line_padding_bottom": 5,
+	"margin": 4,
 	"match_brackets": true,
 	"match_brackets_angle": true,
 	"remember_open_files": false,
 	"rulers":
->>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 	[
-		"draw_active"
+		80
 	],
-<<<<<<< HEAD
-	"line_numbers": true,
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
-	"margin": 4,
+	"show_encoding": true,
+	"show_line_endings": true,
 	"smart_indent": true,
 	"soda_folder_icons": true,
 	"tab_size": 4,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-=======
-	"show_encoding": true,
-	"show_line_endings": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
->>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": true
 }
