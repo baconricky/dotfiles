@@ -1,5 +1,5 @@
 # Make vim the default editor
-export EDITOR="vim"
+export EDITOR="vim";
 
 export GEM_HOME=$(brew --prefix)
 
@@ -7,24 +7,32 @@ export GEM_HOME=$(brew --prefix)
 export GREP_OPTIONS="--color=auto"
 
 # Larger bash history (allow 32³ entries; default is 500)
-export HISTSIZE=32768
-export HISTFILESIZE=$HISTSIZE
-export HISTCONTROL=ignoredups
+export HISTSIZE=32768;
+export HISTFILESIZE=$HISTSIZE;
+export HISTCONTROL=ignoredups;
 # Make some commands not show up in history
-export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export HOMEBREW_GITHUB_API_TOKEN="b489d35a44a86502888dfbfa3e789dc1759b4428"
 
 # Prefer US English and use UTF-8
-export LANG="en_US"
-export LC_ALL="en_US.UTF-8"
+export LANG="en_US.UTF-8";
+export LC_ALL="en_US.UTF-8";
 
 # Highlight section titles in manual pages
-export LESS_TERMCAP_md="$ORANGE"
+export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page
-export MANPAGER="less -X"
+export MANPAGER="less -X";
 
+<<<<<<< HEAD
 export OPENSHIFT_HOMEDIR=~/Sites/openshift
+=======
+# Always enable colored `grep` output
+export GREP_OPTIONS="--color=auto";
+
+# Link Homebrew casks in `/Applications` rather than `~/Applications`
+export HOMEBREW_CASK_OPTS="--appdir=/Applications";
+>>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797

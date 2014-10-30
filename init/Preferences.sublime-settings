@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"auto_indent": true,
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
@@ -11,6 +12,15 @@
 	"fold_buttons": true,
 	"font_face": "Soruce Sans Pro",
 	"font_options":
+=======
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": false,
+	"file_exclude_patterns":
+>>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 	[
 		"subpixel_antialias"
 	],
@@ -21,10 +31,23 @@
 	[
 		"Vintage"
 	],
+<<<<<<< HEAD
 	"indent_guide_options":
+=======
+	"font_face": "Monaco",
+	"font_size": 13,
+	"highlight_modified_tabs": true,
+	"hot_exit": false,
+	"line_padding_bottom": 5,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"remember_open_files": false,
+	"rulers":
+>>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 	[
 		"draw_active"
 	],
+<<<<<<< HEAD
 	"line_numbers": true,
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
@@ -34,6 +57,12 @@
 	"tab_size": 4,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
+=======
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": false,
+>>>>>>> fecb8c6115f5ca3d1ff4656dd8a07274945ed797
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
