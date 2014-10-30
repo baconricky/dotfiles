@@ -9,9 +9,8 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Make sure we’re using the latest Homebrew.
-brew update
-
 # Upgrade any already-installed formulae.
+brew update
 brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated).
@@ -72,7 +71,7 @@ brew install xz
 
 # Install other useful binaries.
 brew install ack
-#brew install exiv2
+brew install exiv2
 brew install git
 brew install imagemagick --with-webp
 brew install lynx
@@ -91,5 +90,43 @@ brew install node
 
 brew install homebrew/versions/lua52
 
+# Install native apps
+brew tap phinze/homebrew-cask
+brew install brew-cask
+
+# installCask adium
+# installCask android-file-transfer
+# installCask android-studio
+brew cask install dropbox
+brew cask install google-chrome
+# installCask eclipse-ide
+brew cask install evernote
+brew cask install google-hangouts
+brew cask install google-music-manager
+brew cask install google-notifier
+brew cask install hiss
+brew cask install hyperdock
+brew cask install imagealpha
+brew cask install imageoptim
+brew cask install istat-menus
+brew cask install iterm2
+brew cask install logitech-unifying
+brew cask install miro-video-converter
+brew cask install mplayer-osx-extended
+brew cask install node
+brew cask install node-webkit
+brew cask install silverlight
+brew cask install sourcetree
+brew cask install sublime-text-3
+brew cask install textmate
+brew cask install the-unarchiver
+brew cask install transmission
+brew cask install virtualbox
+brew cask install vlc
+brew cask install witch
+
 # Remove outdated versions from the cellar.
-brew cleanup
+brew install cleanup
+
+
+
