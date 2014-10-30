@@ -157,3 +157,7 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+
+[user]
+	email = nick@theharris.info
+	name = Nick Harris
