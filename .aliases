@@ -144,3 +144,11 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+#############################################################################################
+### from redhat days of old                                                               ###
+#############################################################################################
+#alias mobilepass="python-passwordfile ~/repos/mobilitytest/passwords.asc . | grep -i"
+#alias run="~/Sites/redhat/confernomicon/src/confernomicon/; sudo python manage.py runserver localhost:8080"
+#alias run="redhat.update-ddns.sh; cd ~/Sites/redhat/confernomicon/src/confernomicon/; sudo python manage.py runserver 10.13.121.208:8080"
+#alias avd="/Applications/Android\ Development\ Toolkit/sdk/tools/emulator64-x86 -avd AVD_for_Nexus_4_by_Google"
