@@ -1,5 +1,7 @@
 # Add `~/bin` to the `$PATH`
 
+PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+
 export HOMEBREW_PATH="$(brew --prefix homebrew/php/php56)/bin"
 export MY_BIN="$HOME/sbin:$HOME/bin"
 export LOCAL_BIN="/usr/local/sbin:/usr/local/bin"
@@ -14,5 +16,5 @@ export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 export GNUBIN="$(brew --prefix coreutils)/libexec/gnubin"
 
-export PATH="$PATH:$HOMEBREW_PATH:$MY_BIN:$LOCAL_BIN:$RUBY_GEM_PATH:$RUBY_GEM_GLOBAL_PATH:$RUBIES_PATH:$PHP_PATH:$RVM_USER_PATH:$RVM_LOCAL_PATH:$PYTHONPATH:$LDFLAGS:$CPPFLAGS:$GNUBIN"
+export PATH="$GNUBIN:$HOMEBREW_PATH:$MY_BIN:$LOCAL_BIN:$RUBY_GEM_PATH:$RUBY_GEM_GLOBAL_PATH:$RUBIES_PATH:$PHP_PATH:$RVM_USER_PATH:$RVM_LOCAL_PATH:$PYTHONPATH:$LDFLAGS:$CPPFLAGS:$PATH"
 
