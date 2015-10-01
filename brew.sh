@@ -5,7 +5,7 @@
 # Ask for the administrator password upfront.
 sudo -v
 
-# Keep-alive: update existing `sudo` time stamp until `.osx` has finished.
+# Keep-alive: update existing `sudo` time stamp until `brew.sh` has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Make sure we’re using the latest Homebrew.
@@ -19,16 +19,14 @@ brew install coreutils
 sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 # Install some other useful utilities like `sponge`.
-brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
-brew install findutils
+brew install moreutils findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --default-names
 # Install Bash 4.
 # Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
 # running `chsh`.
-brew install bash
-brew install bash-completion
+brew install bash bash-completion
 
 # Install `wget` with IRI support.
 brew install wget --enable-iri
@@ -36,8 +34,7 @@ brew install wget --enable-iri
 # Install RingoJS and Narwhal.
 # Note that the order in which these are installed is important;
 # see http://git.io/brew-narwhal-ringo.
-brew install ringojs
-brew install narwhal
+# brew install ringojs narwhal
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
@@ -46,84 +43,24 @@ brew install homebrew/dupes/screen
 brew install homebrew/php/php55 --with-gmp
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+# brew install bfg binutils binwalk cifer dex2jar dns2tcp fcrackzip foremost hashpump hydra john knock nmap pngcheck socat sqlmap tcpflow tcpreplay tcptrace ucspi-tcp install xpdf xz
 
 # Install other useful binaries.
-brew install ack
-brew install exiv2
-brew install git
-brew install imagemagick --with-webp
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
-brew install rename
-brew install rhino
-brew install tree
-brew install webkit2png
-brew install zopfli
+# brew install ack exiv2 lynx pigz pv rhino tree webkit2png zopfli
+# brew install imagemagick --with-webp
+brew install git p7zip rename
+# brew install
 
 # Install Node.js. Note: this installs `npm` too, using the recommended
 # installation method.
 brew install node
-
-brew install homebrew/versions/lua52
+# brew install homebrew/versions/lua52
 
 # Install native apps
-brew tap phinze/homebrew-cask
-brew install brew-cask
+# brew tap phinze/homebrew-cask
+# brew install brew-cask
 
-# installCask adium
-# installCask android-file-transfer
-# installCask android-studio
-brew cask install dropbox
-brew cask install google-chrome
-# installCask eclipse-ide
-brew cask install evernote
-brew cask install google-hangouts
-brew cask install google-music-manager
-brew cask install google-notifier
-brew cask install hiss
-brew cask install hyperdock
-brew cask install imagealpha
-brew cask install imageoptim
-brew cask install istat-menus
-brew cask install iterm2
-brew cask install logitech-unifying
-brew cask install miro-video-converter
-brew cask install mplayer-osx-extended
-brew cask install node
-brew cask install node-webkit
-brew cask install silverlight
-brew cask install sourcetree
-brew cask install sublime-text-3
-brew cask install textmate
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install virtualbox
-brew cask install vlc
-brew cask install witch
+# brew cask install adium android-studio dropbox evernote google-hangouts hiss hyperdock istat-menus iterm2 logitech-unifying mplayer-osx-extended node node-webkit silverlight sourcetree sublime-text-3 textmate the-unarchiver transmission virtualbox vlc witch google-chrome eclipse-ide
 
 # Remove outdated versions from the cellar.
 brew install cleanup
