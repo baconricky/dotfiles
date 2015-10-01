@@ -32,6 +32,9 @@ export GREP_OPTIONS="--color=auto";
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
 export HOMEBREW_GITHUB_API_TOKEN="b489d35a44a86502888dfbfa3e789dc1759b4428"
 
+export PERSONAL_GITHUB_API_LOGIN="baconricky"
+export PERSONAL_GITHUB_API_TOKEN="882bc2d991febca280786042a09b760d484c6be6"
+
 export PS1=" \[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
