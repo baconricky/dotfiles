@@ -1,5 +1,10 @@
 # ~/.osx — https://mths.be/osx
 
+###############################################################################
+# NOTE: GitHub access token for baconricky                                    #
+# 882bc2d991febca280786042a09b760d484c6be6                                    #
+###############################################################################
+
 # Ask for the administrator password upfront
 sudo -v
 
