@@ -1,13 +1,13 @@
 {
-	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
-	"font_face": "Source Code Pro",
+	"color_scheme": "Packages/User/SublimeLinter/Tomorrow-Night-Bright (SL).tmTheme",
+	"font_face": "Source Code Pro Medium",
 	"font_options":
 	[
 		"no_round",
-		"subpixel_antialias"
+		"subpixel_antialias",
+		"gdi"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -15,5 +15,9 @@
 	],
 	"line_padding_bottom": 2,
 	"line_padding_top": 1,
-	"tab_size": 2
+	"soda_classic_tabs": false,
+	"soda_folder_icons": true,
+	"tab_size": 4,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true
 }
