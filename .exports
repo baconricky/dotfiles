@@ -1,5 +1,5 @@
 # Make vim the default editor
-export EDITOR="vim";
+export EDITOR="subl";
 
 export GEM_HOME=$(brew --prefix)
 
@@ -11,7 +11,7 @@ export HISTSIZE=32768;
 export HISTFILESIZE=$HISTSIZE;
 export HISTCONTROL=ignoredups;
 # Make some commands not show up in history
-export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help";
+export HISTIGNORE="ls:cd:cd ..:cd -:pwd:exit:date:* --help";
 
 # Prefer US English and use UTF-8
 export LANG="en_US.UTF-8";
@@ -30,10 +30,7 @@ export GREP_OPTIONS="--color=auto";
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications";
-export HOMEBREW_GITHUB_API_TOKEN="b489d35a44a86502888dfbfa3e789dc1759b4428"
-
-export PERSONAL_GITHUB_API_LOGIN="baconricky"
-export PERSONAL_GITHUB_API_TOKEN="2e1b0931ae5940f60f468fcc7dd476a22127a020"
+export HOMEBREW_GITHUB_API_TOKEN=""
 
 export PS1=" \[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
 export CLICOLOR=1
